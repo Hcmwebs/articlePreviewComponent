@@ -80,6 +80,7 @@ body{
         position: absolute;
         bottom: 0;
 
+
         &--imgtxt{
           @extend %flexSpaceBtwn;
           padding: 0 10px;
@@ -123,6 +124,7 @@ body{
         bottom: 0;
         background-color: $veryDarkGrayishBlue;
         display:none;
+
 
         small {
           font-size: 13px;
