@@ -22,37 +22,53 @@
 
     &__body {
       width: 400px;
+      height: 100%;
       border-radius:0 10px 10px 0;
+
+      &--text{
+        margin-bottom: 70px;
+      }
+
+
+
 
       &--profile{
         border-radius: 0 0px 10px 0;
         display: flex;
+        margin-bottom: 30px;
       }
 
 
       &--media{
         width: auto;
         position: absolute;
-        bottom: 60px;
+        bottom: 95px;
         right: -60px;
         border-radius: 10px;
 
+        &--icons{
+          margin-right: 0;
+        }
+
+
         .triangle {
-          width: 20px;
-          height: 20px;
+          width: 30px;
+          height: 15px;
           background-color: inherit;
           clip-path: polygon(0 0, 50% 100%, 100% 0);
           position: absolute;
-          bottom: -15px;
-          right: 100px;
+          bottom: -14px;
+          right: 90px;
 
         }
 
-        button{
-          display: none;
-        }
 
-    }
+      }
+
+        button {
+        margin-bottom: 30px;
+      }
+
 
     }
 

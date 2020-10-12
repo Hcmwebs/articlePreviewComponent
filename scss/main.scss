@@ -13,7 +13,12 @@ body{
   display: grid;
   place-items: center;
 }
-
+h1{
+  font-size: 1.3em;
+}
+p{
+  font-size: 1em;
+}
 
 .container{
   width: 100%;
@@ -25,7 +30,6 @@ body{
 }
 .card{
   width: 300px;
-  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -33,7 +37,7 @@ body{
   border-radius: 10px;
   background-color: #fff;
   position: relative;
-  box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.3);
 
   &__header{
 
@@ -54,18 +58,17 @@ body{
 
 
     &--text{
-      padding: 30px;
+      margin-bottom: 70px;
+      padding: 0 30px;
 
       h1 {
           font-weight: 700;
-          font-size: 13px;
-          margin: 0;
+          margin-top:20px ;
           color:$veryDarkGrayishBlue;
         }
 
         p {
           font-weight: 500;
-          font-size: 13px;
           color:$desaturatedDarkBlue;
         }
     }
@@ -96,16 +99,17 @@ body{
           &--txt {
             margin-left: 10px;
 
-            h2 {
+              p {
               font-weight: 700;
-              font-size: 13px;
-              margin-bottom: 0;
               color: $veryDarkGrayishBlue;
+              margin: 0;
             }
 
             small {
               font-weight: 500;
               color: $desaturatedDarkBlue;
+              margin: 30px 0;
+
 
             }
 
@@ -120,7 +124,7 @@ body{
         height: 60px;
         @extend %profileShared;
         border-radius: 0 0 10px 10px;
-        padding:0 30px;
+        padding: 0 30px;
         position: absolute;
         bottom: 0;
         background-color: $veryDarkGrayishBlue;
@@ -135,6 +139,7 @@ body{
         }
 
         &--icons {
+          margin-right: 70px;
 
           img {
             margin-left: 10px;
